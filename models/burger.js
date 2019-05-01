@@ -21,8 +21,12 @@ var burger = {
 
       });
 
-    }//^^^^^ End create() fct in burger Model ^^^^^^^
-
+    },//^^^^^ End create() fct in burger Model ^^^^^^^
+    update: function(objColVals, condition, cb) {
+      orm.update("burgers", objColVals, condition, function(res) {
+        cb(res);
+      });
+    },
 
   };
   
