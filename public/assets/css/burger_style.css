@@ -11,3 +11,21 @@ body{
     margin: 2px;
     color: white;
 }
+
+.jumbotron {
+    text-align: center;
+    font-size: 20;
+    background-image: url("../img/marie-knodo-800x417.jpg");
+    padding: 40px;
+}
+.btn {
+    margin-bottom: 2em;
+}
+
+.display-4 {
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+}
